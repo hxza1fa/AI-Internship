@@ -1,0 +1,16 @@
+Main colors:
+#2051eb Electric Blue — primary brand / page background
+
+White accents:
+#ffffff Pure White — headlines, primary CTAs, nav text
+#f5f5f5 Soft White — cards, light surfaces, muted CTAs
+
+Grey accents:
+#e5e7eb Light Grey — borders, dividers, disabled fills
+#d1d5db Soft Grey — secondary text on blue, subtle UI
+#9ca3af Mid Grey — placeholders, icons, inactive states
+#4b5563 Slate Grey — body text on light surfaces
+
+Dark accents:
+#111827 Near Black — strong text on white buttons/cards
+#1e3a8a Deep Blue — secondary buttons, hover on primary blue
