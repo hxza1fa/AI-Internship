@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Keep only fonts used by the app
+/fonts/**/*.ttf
+!/fonts/Iosevka/IosevkaNerdFont-Bold.ttf
+!/fonts/dm-sans/DMSans_18pt-Regular.ttf
+!/fonts/dm-sans/DMSans_36pt-Bold.ttf
+
+# Unused large media (app uses public/images/model-performance.mp4)
+/images/model-performance.gif
+/prediction_animation*.mp4

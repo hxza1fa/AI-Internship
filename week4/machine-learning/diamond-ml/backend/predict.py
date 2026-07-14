@@ -18,3 +18,18 @@ def price_predictor(diamond: dv.Diamond) -> float:
     y = model.predict(X)[0]
 
     return round(float(y), 2)
+
+d = dv.Diamond(
+    carat=1.25,
+    cut="Ideal",
+    color="G",
+    clarity="VS2",
+    depth=61.8,
+    table=57.0,
+    price=8500,
+    x=6.95,
+    y=6.98,
+    z=4.30,
+)
+
+print(price_predictor(d))
