@@ -61,6 +61,9 @@ export default function RootLayout({
             <Link href="/predict" className="inline-block transition-transform duration-200 hover:-translate-y-1">
               Predict
             </Link>
+            <Link href="/about" className="inline-block transition-transform duration-200 hover:-translate-y-1">
+              About
+            </Link>
           </nav>
         </header>
         <main className="flex-1 overflow-y-auto bg-[#2051eb]">{children}</main>
