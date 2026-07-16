@@ -5,10 +5,9 @@ import localFont from "next/font/local";
 import ColorGrid from "@/components/color-grid";
 import TextGrid from "@/components/text-grid";
 import PredictButton from "@/components/predict-button";
-import { setPriority } from "os";
 
 export async function postDiamond(data: any) {
-  const response = await fetch("http://localhost:8000/predict", {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/predict`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
