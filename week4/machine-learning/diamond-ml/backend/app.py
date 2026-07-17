@@ -9,7 +9,7 @@ api = FastAPI()
 
 api.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000", "gemiq-ml.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -17,6 +17,8 @@ api.add_middleware(
 
 @api.post("/predict")
 def predict_diamond_price(diamond: Diamond):
+    print(f"Diamond sent: {diamond}")
+    
     return {
         "price": price_predictor(diamond)
     }
