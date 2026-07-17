@@ -9,7 +9,7 @@ api = FastAPI()
 
 api.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://gemiq-ml.vercel.app"],
+    allow_origins=["http://localhost:3000", "https://gemiq-ml.vercel.app", "https://gemiq-b5kc9il6b-i246078-3606s-projects.vercel.app",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
