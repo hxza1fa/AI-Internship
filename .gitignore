@@ -1,5 +1,12 @@
 # Virtual Environments
-
 env/
 venv/
 .venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Learning Material
+week5/deep-learning/material/
